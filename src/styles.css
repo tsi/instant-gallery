@@ -1,0 +1,18 @@
+html,
+body {
+  font-family: sans-serif;
+  margin: 0;
+  height: 100%;
+  background: #f2f3f4;
+}
+#gw-container {
+  position: absolute;
+  inset: 0;
+  aspect-ratio: 1/1;
+  max-width: calc(98vh - 70px);
+  max-height: calc(98vw - 70px);
+  box-sizing: border-box;
+  background: #fff;
+  margin: auto;
+  padding: 1%;
+}

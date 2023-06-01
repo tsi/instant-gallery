@@ -1,0 +1,18 @@
+# Don't check auto-generated stuff into git
+node_modules
+.history
+.cache/
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+.vscode
+.iml
+/cld-web.iml
+
+# Logs & errors
+yarn-error.log
+
+#Lock for npm
+package-lock.json
